@@ -25,8 +25,8 @@ class Ball:
         else:
             self.y -= random.randint(5, 30)
 
-        if self.y < 30:  # 바닥에 닿으면 멈춤
-            self.y = 30
+        if self.y < 50:  # 바닥에 닿으면 멈춤
+            self.y = 50
 
     def draw(self):
         if self.image_type == 0:
